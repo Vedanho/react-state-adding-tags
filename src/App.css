@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  flex-direction: column;
+}
+
+.is_Error {
+  background-color: white;
+  border: red solid 1px;
+  box-shadow: 0px 1px 2px 0px red;
+  padding: 10px 30px 10px 5px;
+  border-radius: 5px;
+}
+
+.no_Error {
+  background-color: white;
+  padding: 10px 30px 10px 5px;
+  border-radius: 5px;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 10px 40px;
+  background-color: rgb(11, 186, 255);
+  border-radius: 5px;
+  color: wheat;
+}
+
+.message_class {
+  color: green;
+  font-size: 12px;
+  margin-top: 12px;
+  font-style: oblique;
+}
+
+.error_text {
+  color: red;
+  font-size: 12px;
+  margin-top: 12px;
+  font-style: oblique;
+}
+.conteiner {
+  height: 50px;
+}
+
+.arr_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  margin-top: 30px;
+  height: 200px;
+}
+
+.teg_conteiner {
+  margin-right: 10px;
+  background-color: rgba(81, 57, 167, 0.466);
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 3px 10px;
+}
+
+.delete_teg {
+  background-color: rgba(81, 57, 167, 0.788);
+  border-radius: 10px;
+  border-width: 2px;
+  margin-left: 10px;
+  border-spacing: 2px;
+  border: 1px solid;
+}
+
